@@ -1,0 +1,30 @@
+import java.util.Scanner;
+class Main {
+public static void main(String[] args) {
+System.out.println("welcome to the calculator");
+Scanner input=new Scanner(System.in);
+System.out.print("the first number:");
+double a=input.nextDouble();
+System.out.print("the second number:");
+double b=input.nextDouble();
+System.out.print("Enter the mathematical operation:");
+char c=input.next().charAt(0);
+double total;
+if (c=='+'){
+total=a+b;
+System.out.println("the result is="+total);
+}
+if(c=='-'){
+total=a-b;
+System.out.println("the result is="+total);
+}
+if(c==''){
+total=ab;
+System.out.println("the result is="+total);
+}
+if (c=='/'){
+total=a/b;
+System.out.println("the result is="+total);
+}
+}
+}
